@@ -34,7 +34,7 @@ def sorted_merge(list1, list2):
         except:
             output.append(list2[j])
 
-    # Here is an alternate way to replace the code from lines 26 to 40. Both are O(n) or linear, but the current one is shorter and cleaner.
+    # Here is an alternate way to replace the code from lines 21 to 35. Both are O(n) or linear, but the current one is shorter and cleaner.
     # try:
     #     if list1[i] not in output:
     #         while True:
